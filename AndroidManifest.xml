@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alumni"
+    android:versionCode="1"
+    android:versionName="1.0" >
+<uses-permission android:name="android.permission.INTERNET"/>
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.alumni.login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.alumni.registerpage"></activity>
+        <activity android:name="com.example.alumni.facultyreg"></activity>
+        <activity android:name="com.example.alumni.studreg"></activity>
+        <activity android:name="com.example.alumni.MainActivity"></activity>
+        <activity android:name="com.example.alumni.profile"></activity>
+        <activity android:name="com.example.alumni.editprofile"></activity>
+        <activity android:name="com.example.alumni.changepwd"></activity>
+        <activity android:name="com.example.alumni.event"></activity>
+        <activity android:name="com.example.alumni.newevent"></activity>
+        <activity android:name="com.example.alumni.find"></activity>
+        <activity android:name="com.example.alumni.mrandmrs"></activity>
+        <activity android:name="com.example.alumni.newinvitation"></activity>
+        <activity android:name="com.example.alumni.forgetpwd"></activity>
+        <activity android:name="com.example.alumni.chat2"></activity>
+         <activity android:name="com.example.alumni.listevent"></activity>
+        <activity android:name="com.example.alumni.listinvitation"></activity>
+    </application>
+
+</manifest>
